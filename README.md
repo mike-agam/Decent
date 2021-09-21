@@ -6,11 +6,12 @@ Decent is a chatroom application that utilizes the Nano cryptocurrency network t
 ---
 
 ### What can Decent be used for?
-Decent is a functional proof of concept for an immutable and censorship-resistant messaging service. Because the entirety of Decent's transactions are sent and received through the Nano cryptocurrency network, it is not reliant on a central server, which makes it difficult for bad actors to interfere with the service. As a result, the Decent chatroom protocol has the following advantages:
+Decent is a functional proof of concept for an immutable and censorship-resistant messaging service. Because the entirety of Decent's transactions are sent and received through the Nano cryptocurrency network, Decent's chatroom service is not reliant on a central server, which gives it the following advantages:
 
 * Blocking access to a Decent chatroom requires significantly more effort than blocking a single IP address, and cannot be done without blocking the entirety of Nano's decentralized network.
 * Like a blockchain, Nano's block lattice architecture ensures that upon being sent, messages are permanent and cannot be tampered with, modified, or removed.
 * Nano's block lattice architecture also prevents your Decent chatroom from being removed from the network by any means.
+* Even when major web services and cloud hosts experience outages, Decent's decentralized nature allows for reliable user access through a plethora of available nodes.
 * In the near future, Decent chatrooms will allow for encrypted communications between security-conscious individuals.
 
 ---
