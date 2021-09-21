@@ -18,4 +18,4 @@ Nano is a cryptocurrency that utilizes a block lattice architecture in order to 
 ### How does Decent work?
 A transaction using the Nano digital payment protocol allows for a unit of Nano currency to be divided into thirty decimal places. By assigning each commonly used character a numerical representation, we can use the numbers 00 through 99 in order to encode messages into each transaction. While each whole unit of Nano costs roughly $5 at any given point in time, by only utilizing the last sixteen digits of a thirty decimal transaction, we can create transactions that cost fractions of a cent that can be used to transmit messages.
 
-<p style="text-align:center;"><img src="/images/flowchart.png" width="auto" height="auto" alt="Flowchart"></p>
+<p style="text-align:center;"><img src="/flowchart.png" width="auto" height="auto" alt="Flowchart"></p>
