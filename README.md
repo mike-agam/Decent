@@ -16,7 +16,7 @@ Decent is a functional proof of concept for an immutable and censorship-resistan
 ---
 
 ### What is Nano?
-Nano is a cryptocurrency that utilizes a block lattice architecture in order to create feeless, fast, and enviornmentally friendly transactions between users.
+Nano is a cryptocurrency that utilizes a lightweight block lattice architecture in order to create feeless, fast, and enviornmentally friendly transactions between users. Because of its speed and feeless nature, it's ideal for hosting free and decentralized services like online chatrooms.
 
 ---
 
