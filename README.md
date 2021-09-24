@@ -3,7 +3,7 @@
 <p style="text-align:center;"><img src="/demo.png" width="auto" height="auto" alt="Application Screenshot"></p>
 
 ### What is Decent?
-Decent is a chatroom application that utilizes the Nano cryptocurrency network to allow for communications without a central server.
+Decent is a chatroom application that utilizes the Nano cryptocurrency network to allow for communications to take place without the use of a central server.
 
 ---
 
