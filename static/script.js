@@ -44,6 +44,7 @@ function checkReceive(){
             setTimeout(checkReceive, 30000)
         }
         else {
+            checkWorth();
             location.reload();
         }
     })
