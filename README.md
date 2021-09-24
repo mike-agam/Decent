@@ -39,7 +39,7 @@ A transaction using the Nano digital payment protocol allows for a unit of Nano 
 
 1) ``pip3 install nanolib flask rsa``
 2) ``git clone https://github.com/mike-agam/Decent.git``
-3) ``cd decent''
+3) ``cd decent``
 4) ``python3 decent.py``
 
 ## Using Decent
