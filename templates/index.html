@@ -1,0 +1,101 @@
+<html>
+<head>
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="static/script.js"></script>
+    <title>Decent</title>
+    <style>
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        body {
+            font-size: 2.25em;
+            animation-fill-mode: both;
+            animation: fadeIn ease 2s
+        }
+        .material-icons {
+            vertical-align: middle;
+            padding-right: 5%;
+            color: #666666;
+        }
+        #chatbox {
+            position: fixed;
+            left: 50%;
+            bottom: 2.5%;
+            transform: translate(-50%,-50%);
+            margin: 0 auto;
+            width: 80%;
+            height: 5%;
+            font-size: 100%;
+        }
+        #textarea {
+            overflow-y: hidden;
+            position: fixed;
+            left: 50%;
+            top: 45%;
+            transform: translate(-50%,-50%);
+            margin: 0 auto;
+            width: 80%;
+            height: 75%;
+            background-color: #1c1c1c;
+            color: #c9c9c9;
+            padding: 6px 10px;
+            margin-bottom: 10px;
+            border: 1px solid #4a4a4a;
+            border-radius: 4px;
+            box-shadow: none;
+            box-sizing: border-box; }
+            textarea:focus, select:focus, input:focus {
+            border: 1px solid #ffffff;
+            outline: 0; 
+            }
+
+        #spaces {
+            position: fixed;
+            left: 52.5%;
+            bottom: 2.5%;
+            transform: translate(-50%,-50%);
+            margin: 0 auto;
+            width: 85%;
+            height: 10.05%;
+        }
+        button {
+            background-color: #222222;
+            border-color: #4a4a4a;
+            border-radius: 2px;
+            color: white;
+            max-width: 75%;
+            height: 3em;
+            display: inline-block;
+            vertical-align: middle;
+            padding-right: 2%;
+            padding-left: 2%;
+        }
+        #username {
+            padding-right: 1.25%;
+            color: #777777;
+        }
+        #hidden {
+            display:none;
+        }
+            
+    </style>
+</head>
+<body>
+    <form>
+        <div id="spaces">
+            <button type="button" id="user" onClick="getAddress()"><span class="material-icons">person</span>My Wallet</button>
+            <button type="button" id="funds" onClick="getFunds()"><span class="material-icons">account_balance_wallet</span>{{balance}}</button>
+            <button type="button" id="server" onClick="getLog()"><span class="material-icons">public</span>Connected to {{server}}</button>
+        </div>
+    <div id="textarea"> <!-- Populated by Javascript -->
+    </div>
+    <form onSubmit="chat();return false" method="POST">
+        <input type="text" name="chatbox" id="chatbox" placeholder="Message #" autocomplete="off"/>
+        <input type="submit" onClick="chat();return false" style="visibility: hidden"/>
+    </form>
+</form>
+</body>
+</html>
