@@ -1,5 +1,7 @@
 # Decent
 
+<p style="text-align:center;"><img src="/demo.png" width="auto" height="auto" alt="Application Screenshot"></p>
+
 ### What is Decent?
 Decent is a chatroom application that utilizes the Nano cryptocurrency network to allow for communications without a central server.
 
@@ -25,3 +27,33 @@ Nano is a cryptocurrency that utilizes a lightweight block lattice architecture 
 A transaction using the Nano digital payment protocol allows for a unit of Nano currency to be divided into thirty decimal places. By assigning each commonly used character a numerical representation, we can use the numbers 00 through 99 in order to encode messages into each transaction. While each whole unit of Nano costs roughly $5 at any given point in time, by only utilizing the last sixteen digits of a thirty decimal transaction, we can create transactions that cost fractions of a cent that can be used to transmit messages.
 
 <p style="text-align:center;"><img src="/flowchart.png" width="auto" height="auto" alt="Flowchart"></p>
+
+
+---
+
+### Prerequisites
+
+* Python 3
+
+## Installation
+
+1) ``pip3 install nanolib flask rsa``
+2) ``git clone https://github.com/mike-agam/Decent.git``
+3) ``cd decent''
+4) ``python3 decent.py``
+
+## Using Decent
+
+While Decent will create your Nano wallet for you, it can't populate it with currency. The following steps will give you enough Nano to use Decent:
+1) Click the button that reads **Receive Nano**.
+2) Copy your Nano wallet address from the pop-up. This should open [Free Nano Faucet](https://freenanofaucet.com/).
+3) Paste your wallet address into the text bar that says "nano address" and then click the "Get Nano!" button.
+4) Sit back and wait. Your wallet should be given some starting funds soon.
+
+If you want to create a Decent room for your organization:
+1) Run ``python3 chathost.py``
+2) In the console log, you should see a line that says ``Starting server on xrb_[..]``. Copy this xrb address.
+3) In config.ini, there is an option to set the server. Replace the current option with the address that you copied.
+4) Restart the chathost to start hosting your own Decent room!
+
+Due to the nature of proof of work systems, a Decent room will take longer to send and receive messages than a typical chatroom service - with the exact duration dependent on the performance of your CPU. I intend to release an update with an optimized proof of work function in the near future in order to help improve slow performance speeds.
