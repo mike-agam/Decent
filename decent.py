@@ -1,6 +1,6 @@
 import json
 from user import User
-from chatroom import getBalance, getPrivateHistory, getPublicHistory
+from chatroom import getBalance, getPublicHistory
 from api import loadConfig
 from flask import Flask, render_template, request
 
