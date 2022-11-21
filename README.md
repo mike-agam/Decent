@@ -46,9 +46,9 @@ A transaction using the Nano digital payment protocol allows for a unit of Nano 
 
 While Decent will create your Nano wallet for you, it can't populate it with currency. The following steps will give you enough Nano to use Decent:
 1) Click the button that reads **Receive Nano**.
-2) Copy your Nano wallet address from the pop-up. This should open [Free Nano Faucet](https://freenanofaucet.com/).
+2) Copy your Nano wallet address from the pop-up. This should open [Free Nano Faucet](https://freenanofaucet.com/). If the pop-up doesn't open, check your pop-up blocker settings and press the button again.
 3) Paste your wallet address into the text bar that says "nano address" and then click the "Get Nano!" button.
-4) Sit back and wait. Your wallet should be given some starting funds soon.
+4) Sit back and wait. Your wallet should be given some starting funds soon. If this doesn't happen within a few seconds, please refresh the webpage.
 
 If you want to create a Decent room for your organization:
 1) Run ``python3 chathost.py``
