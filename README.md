@@ -56,4 +56,4 @@ If you want to create a Decent room for your organization:
 3) In config.ini, there is an option to set the server. Replace the current option with the address that you copied.
 4) Restart the chathost to start hosting your own Decent room!
 
-Due to the nature of proof of work systems, a Decent room will take longer to send and receive messages than a typical chatroom service - with the exact duration dependent on the performance of your CPU. I intend to release an update with an optimized proof of work function in the near future in order to help improve slow performance speeds.
+Due to the nature of Nano's new spam-preventing proof of work systems, a Decent room will take longer to send and receive messages than a typical chatroom service - with the exact duration dependent on the performance of your CPU. I intend to release an update with GPU-based proof of work functionality in the near future in order to help improve slow performance speeds - which will also hopefully make encrypted communications practical in a future update afterwards.
